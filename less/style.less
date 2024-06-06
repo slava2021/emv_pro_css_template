@@ -1,0 +1,26 @@
+@import "fonts";
+@import "grid";
+@import "top";
+@import "main";
+
+//Color settings
+@bg-color: #27282C;
+@link-color: #A8A8AA;
+
+//Font style settings
+@regular: ~"400";
+@bold: ~"700";
+@font-style:"istok", sans-serif;
+
+.font-text(@color){
+    font-family: @font-style;
+    font-weight: @regular;
+    font-style: normal;
+    color:@color;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: @bg-color;
+}
+
