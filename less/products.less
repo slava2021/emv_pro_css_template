@@ -1,0 +1,107 @@
+.main-products{
+    // border: 1px solid red;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 98;
+
+    & .main-products__bg{
+        position: absolute;
+        width: 1400px;
+        min-height: 1400px;
+        // border: 1px solid red;
+        top: -200px;
+        left: -100px;
+        background: url(/images/bg-gradient-violet.png) 0px 80px no-repeat, 
+        url(/images/bg-gradient-big-violet.png) 660px 470px no-repeat; 
+        background-size: auto, auto; /* Меняем масштаб */
+        // border: 1px solid red;
+        z-index: -100;
+    }
+
+    & p {
+        position: relative;
+        .font-text(@text-color, @regular);
+        font-size: 20px;
+        padding-bottom: 50px;
+        z-index: 99;
+    }
+
+    & .main-products__container{
+        position: relative;
+        display: flex;
+        gap: 0px 10px;
+        // background: url(/images/bg-planet-orbit.png) 400px 0px repeat-x;
+        // background-size: auto; /* Меняем масштаб */
+        background-color: #fff;
+        border-radius: 20px;
+        min-height: 585px;
+        z-index: 99;
+
+        & h2{
+            position: absolute;
+            .font-text(#000, @regular);
+            font-size: 32px;
+            top: 10px;
+            left: 40px;
+            // padding: 10px 0 40px 20px;
+        }
+
+    }
+    & .main-products__planet{
+        width: 280px;
+        height: 585px;
+        background: url(/images/bg-planet-orbit.png) 150px 0px no-repeat;
+        background-size: auto; /* Меняем масштаб */
+
+        & .main-products__planet-block:last-child{
+            // padding-top:60px;
+        }
+        
+        & .main-products__planet-block{
+            position: relative;
+            padding-top: 90px;
+            padding-left: 40px;
+            min-height: 200px;
+            // border: 1px solid red;
+            & .products-planet{
+                position: absolute;
+                right: -40px;
+                border: 1px solid #D9D9D9;
+                border-radius: 50%;
+                padding: 10px;
+
+            }
+        & h3 {
+            .font-text(#000, @regular);
+            font-size: 18px;
+            text-align: right;
+            padding-right: 80px;
+            padding-bottom: 10px;
+        }
+        & p {
+            width:70%;
+            .font-text(#000, @regular);
+            font-size: 14px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+        }
+
+        & button{
+            position: absolute;
+            bottom: 20px;;
+            background-color: #D9D9D9;
+            border-radius: 20px;
+            border: none;
+            padding: 6px 16px;
+            .font-text(#000, @regular);
+            font-size: 14px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: darken(#D9D9D9, 10%);
+            }
+        }
+    }
+}
+}
