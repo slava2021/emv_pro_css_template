@@ -1,0 +1,79 @@
+.main-solutions__slider{
+    padding-bottom: 80px;
+    & p{
+        .font-text(@text-color, @regular);
+        font-size: 24px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    & .main-solutions__container{
+        display: grid;
+        grid-template-columns: auto 760px;
+        width: 1200px;
+        height: 552px;
+        background-color: rgba(22, 19, 30, .6);
+        border-radius: 20px;
+
+        & .main-solutions__container-left{
+            height: 552px;
+        }
+
+        & .main-solutions__container-right{
+            height: 552px;
+            background-color: rgba(45, 42, 45, .4);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+    }
+
+}
+
+// Tab style
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+.tab-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0;
+    order: -1;
+}
+
+.main-solutions__button{
+    background: none;
+    border: none;
+    .font-text(@text-color, @regular);
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.tab-nav span{
+    display: none;
+}
+
+.tab-nav span.visible{
+    display: block;
+    .font-text(@text-color, @regular);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.tab-content h3{
+    .font-text(@text-color, @regular);
+    font-size: 18px;
+
+}
