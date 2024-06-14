@@ -1,5 +1,18 @@
 .main-solutions__slider{
+    position: relative;
     padding-bottom: 80px;
+
+    & .main-solutions__bg{
+        position: absolute;
+        width: 1400px;
+        height: 1500px;
+        top: -500px;
+        z-index: -1;
+        background: url(../images/bg-gradient-big-blue.png) 0 0 no-repeat,
+        url(../images/bg-gradient-big2-violet.png) -100px 500px no-repeat;
+        background-size: auto auto;
+    }
+
     & p{
         .font-text(@text-color, @regular);
         font-size: 24px;
@@ -14,22 +27,147 @@
         height: 552px;
         background-color: rgba(22, 19, 30, .6);
         border-radius: 20px;
+        box-shadow: 9px 8px 5px 2px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 9px 8px 5px 2px rgba(0,0,0,0.62);
+        -moz-box-shadow: 9px 8px 5px 2px rgba(0,0,0,0.62);
 
         & .main-solutions__container-left{
             height: 552px;
         }
 
         & .main-solutions__container-right{
+            box-sizing: border-box;
+            position: relative;
             height: 552px;
             background-color: rgba(45, 42, 45, .4);
             border-radius: 20px;
-            padding: 20px;
+            padding-top: 0px;
+            padding-left: 0px;
+
+            & .bg-gradient-slider-violet{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: url(../images/bg-gradient-big-violet.png) -200px -170px no-repeat,
+                url(../images/bg-gradient-red-min.png) 280px 100px no-repeat;
+                background-size: auto auto;
+            }
+        
+
+            & .main-solutions__products{
+                padding-top: 20px;
+                display: grid;
+                grid-template-columns: 120px 400px;
+                justify-content: center;
+                position: relative;
+                padding-bottom: 20px;
+                & p{
+                    font-size: 14px;
+                    line-height: 20px;
+                    
+                }
+
+                & h2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .font-text(@text-color, @regular);
+                    font-size: 18px;
+                    width: 113px;
+                    height: 113px;
+                    border-radius: 50%;
+                    border: 4px dotted #5684A9;
+                }
+
+                & .feba{
+                    background: url('data:image/svg+xml, <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%234F63DD"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8498 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%237B80FF"></path></svg>')center no-repeat;
+                    background-size: auto;
+                }
+
+                & .norve{
+                    background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D4433F"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23FF5959"></path></svg>')center no-repeat;
+                    background-size: auto;
+                }
+
+                & .titan{
+                    background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23FCEFB9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23F9D545"></path></svg>')center no-repeat;
+                    background-size: auto;
+                    color: #5684A9;
+                }
+
+                & .hyperion{
+                    background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6C00C"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23ECCE0F"></path></svg>')center no-repeat;
+                    background-size: auto;
+                    
+                }
+
+                & .calypso{
+                    background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6B648"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8526 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23F9D545"></path></svg>')center no-repeat;
+                    background-size: auto;
+                    
+                }
+
+                & .atlas{
+                    background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23B28253"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23D0A16D"></path></svg>')center no-repeat;
+                    background-size: auto;
+                    
+                }
+
+                & .prometheus{
+                    background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%235684A9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%2398B6CB"></path></svg>')center no-repeat;
+                    background-size: auto;
+                    
+                }
+
+            }
+
+            & .main-solutions__button-more{
+                position: relative;
+                z-index: 99;
+                cursor: pointer;
+                margin-left: 120px;
+                border: none;
+                background-color: #D9D9D9;
+                .font-text(#000, @regular);
+                font-size: 18px;
+                padding: 10px 40px;
+                border-radius: 20px;
+            }
         }
 
     }
 
 }
 
+.line{
+    position: absolute;
+    width: 1px;
+    height: 62px;
+    top: 210px;
+    border-left: 4px dotted #5684A9;
+    margin-left: 180px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.logo-block {
+    align-self: center;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.hsm-container{
+    display: flex;
+    gap: 20px;
+}
 // Tab style
 
 .tab-content {
@@ -56,6 +194,7 @@
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 10px;
     cursor: pointer;
 }
 
@@ -75,5 +214,6 @@
 .tab-content h3{
     .font-text(@text-color, @regular);
     font-size: 18px;
+    padding: 20px;
 
 }
