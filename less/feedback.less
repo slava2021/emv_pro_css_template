@@ -1,0 +1,64 @@
+.main-feedback{
+    margin: 0 auto;
+    width: 740px;
+    & h1 {
+        .font-text(#D100D9, @bold);
+        font-size: 36px;
+    }
+    & span {
+        .font-text(@text-color, @regular);
+        font-size: 16px;
+    }
+
+    & .main-feedback__block{
+        display: flex;
+        align-items: flex-end;
+        padding-top:20px;
+        column-gap:20px;
+    }
+
+    & input[name="text"] {
+        width: 450px;
+        height: 24px;
+        background: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+        padding-top: 20px;
+        .font-text(@text-color, @regular);
+        font-size: 20px;
+
+        &::placeholder{
+            .font-text(@text-color, @regular);
+            font-size: 20px;
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    & input[name="submit"]{
+        width: 250px;
+        height: 60px;
+        background-color: #d9d9d9;
+        border-radius: 20px;
+        border: none;
+        .font-text(#000; @bold);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    & .main-feedback__bottom{
+        .font-text(@text-color, @regular);
+        font-size: 10px;
+
+        & a{
+            color: @text-color;
+        }
+    }
+
+
+
+}
