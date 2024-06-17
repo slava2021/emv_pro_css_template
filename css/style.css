@@ -1,2 +1,919 @@
-@font-face{font-family:'istok';src:url('../fonts/istokweb-bold-webfont.woff2') format('woff2'),url('../fonts/istokweb-bold-webfont.woff') format('woff'),url('../fonts/istokweb-bold-webfont.ttf') format('ttf');font-weight:400;font-style:normal}@font-face{font-family:'istok';src:url('../fonts/istokweb-bold-webfont.woff2') format('woff2'),url('../fonts/istokweb-bold-webfont.woff') format('woff'),url('../fonts/istokweb-bold-webfont.ttf') format('ttf');font-weight:700;font-style:bold}.top,.main,.footer-navigate{max-width:1200px;min-width:1200px;margin:0 auto}.top{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:20px;z-index:99}.top .top-right{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap}.top .top-right .top-menu .top-menu__list{display:-webkit-box;display:-ms-flexbox;display:flex;list-style:none}.top .top-right .top-menu .top-menu__list .top-menu__link{padding-left:20px}.top .top-right .top-menu .top-menu__list .top-menu__link a{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:20px;text-decoration:none}.top .top-right .top-menu .top-menu__list .top-menu__link a:hover{color:#dcdcdc}.top .top-right .top-lang__ico{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-item-align:center;align-self:center;padding-left:40px}.top .top-right .top-lang__ico .top-lang__ico-button{background:none;border:none;cursor:pointer}.top .top-right .top-lang__ico .top-lang__ico-button .top-lang__ico-svg:hover{fill:#dcdcdc}.top .top-right .top-lang__ico .top-lang__ico-svg{fill:#a8a8aa}.main{position:relative}.main .main-bg-gradient{position:absolute;width:1400px;min-height:1000px;top:-200px;left:-100px;background:url(../images/bg-gradient-blue-min.png) 480px 20px no-repeat,url(../images/bg-gradient-yellow-min.png) 650px 260px no-repeat,url(../images/bg-gradient-red-min.png) 0 180px no-repeat,url(../images/arrow-top.png) 200px 260px no-repeat,url(../images/arrow-bottom.png) 190px 510px no-repeat;background-size:auto,auto,auto,auto,auto}.main-about{position:relative;display:grid;grid-template-columns:60% 40%;grid-template-rows:auto auto auto;-webkit-column-gap:10px;column-gap:10px;z-index:99}.main-about .main-about__section h3,.main-about .main-about__section h4{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:top;-ms-flex-align:top;align-items:top;font-family:"istok",sans-serif;font-weight:700;font-style:normal;color:#fff;font-size:20px;-webkit-column-gap:20px;column-gap:20px}.main-about .main-about__section p{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:16px}.main-about .main-about__section-title{font-family:"istok",sans-serif;font-weight:700;font-style:normal;color:#fff;font-size:32px;padding-bottom:10px}.main-about .main-about__section:first-child{padding-bottom:110px}.main-about .main-about__section:first-child p{margin:0}.main-about .main-about__section:nth-child(2) p{padding-left:70px}.main-about .main-about__section:nth-last-child(3){padding:0 80px}.main-about .main-about__section:nth-last-child(3) p{padding-left:70px;padding-right:50px}.main-about .main-about__section:nth-last-child(2) p{padding-left:102px}.main-about .main-about__section:nth-last-child(2) ul{list-style:none}.main-about .main-about__section:nth-last-child(2) ul h4{font-size:18px;padding:10px 0 10px 70px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-column-gap:10px;column-gap:10px}.main-about .main-about__section:last-child{position:relative;margin-top:-100px;padding-top:50px;z-index:99}.main-about .main-about__section:last-child span:first-child{color:#f9d545;font-weight:bold;font-size:20px}.main-about .main-about__section:last-child span:last-child{color:#ff5959;font-weight:bold;font-size:20px}.main-about .main-about__section:last-child p{padding-bottom:10px}.main-about .main-about__section:last-child .button{border:none;border-radius:20px;padding:10px 40px;background-color:#d9d9d9;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:18px;cursor:pointer}.main-about .main-about__section:last-child .button:hover{background-color:#fff}.main-products{position:relative;padding-top:100px;padding-bottom:100px;z-index:98}.main-products .main-products__bg{position:absolute;width:1400px;min-height:1200px;top:-200px;left:-100px;background:url(../images/bg-gradient-violet.png) 0 80px no-repeat,url(../images/bg-gradient-big-violet.png) 660px 470px no-repeat;background-size:auto,auto;z-index:-100}.main-products p{position:relative;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px;padding-bottom:50px;z-index:99}.main-products .main-products__container{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;gap:0 10px;background-color:#fff;border-radius:20px;min-height:585px;z-index:99}.main-products .main-products__container h2{position:absolute;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:32px;top:10px;left:40px}.main-products .main-products__planet{width:280px;height:585px;background:url(../images/bg-planet-orbit.png) 150px 0 no-repeat;background-size:auto}.main-products .main-products__planet .main-products__planet-block{position:relative;padding-top:90px;padding-left:40px;min-height:200px}.main-products .main-products__planet .main-products__planet-block .products-planet{position:absolute;right:-40px;border:1px solid #d9d9d9;border-radius:50%;padding:10px}.main-products .main-products__planet .main-products__planet-block h3{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:18px;text-align:right;padding-right:80px;padding-bottom:10px}.main-products .main-products__planet .main-products__planet-block p{width:70%;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:14px;padding-bottom:20px;padding-right:10px}.main-products .main-products__planet .main-products__planet-block button{position:absolute;bottom:20px;background-color:#d9d9d9;border-radius:20px;border:none;padding:6px 16px;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:14px;cursor:pointer}.main-products .main-products__planet .main-products__planet-block button:hover{background-color:#c0c0c0}.main-text__slider{padding-bottom:80px;font-family:"istok",sans-serif;font-weight:700;font-style:normal;color:#fff;font-size:48px}.main-text__slider span{color:#f4af5d}.main-solutions__slider{position:relative;padding-bottom:80px}.main-solutions__slider .main-solutions__bg{position:absolute;width:1400px;height:1500px;top:-500px;z-index:-1;background:url(../images/bg-gradient-big-blue.png) 0 0 no-repeat,url(../images/bg-gradient-big2-violet.png) -100px 500px no-repeat;background-size:auto auto}.main-solutions__slider p{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:24px;padding-bottom:20px;padding-left:20px}.main-solutions__slider .main-solutions__container{display:grid;grid-template-columns:auto 760px;width:1200px;height:552px;background-color:rgba(22,19,30,0.6);border-radius:20px;box-shadow:9px 8px 5px 2px rgba(0,0,0,0.62);-webkit-box-shadow:9px 8px 5px 2px rgba(0,0,0,0.62);-moz-box-shadow:9px 8px 5px 2px rgba(0,0,0,0.62)}.main-solutions__slider .main-solutions__container .main-solutions__container-left{height:552px}.main-solutions__slider .main-solutions__container .main-solutions__container-right{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;height:552px;background-color:rgba(45,42,45,0.4);border-radius:20px;padding-top:0;padding-left:0}.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient-slider-violet{position:absolute;width:100%;height:100%;background:url(../images/bg-gradient-big-violet.png) -200px -170px no-repeat,url(../images/bg-gradient-red-min.png) 280px 100px no-repeat;background-size:auto auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products{padding-top:20px;display:grid;grid-template-columns:120px 400px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;padding-bottom:20px}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products p{font-size:14px;line-height:20px}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products h2{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:18px;width:113px;height:113px;border-radius:50%;border:4px dotted #5684a9}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .feba{background:url('data:image/svg+xml, <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%234F63DD"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8498 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%237B80FF"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .norve{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D4433F"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23FF5959"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .titan{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23FCEFB9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;background-size:auto;color:#5684a9}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .hyperion{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6C00C"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23ECCE0F"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .calypso{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6B648"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8526 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .atlas{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23B28253"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23D0A16D"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .prometheus{background:url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%235684A9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%2398B6CB"></path></svg>') center no-repeat;background-size:auto}.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__button-more{position:relative;z-index:99;cursor:pointer;margin-left:120px;border:none;background-color:#d9d9d9;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#000;font-size:18px;padding:10px 40px;border-radius:20px}.line{position:absolute;width:1px;height:62px;top:210px;border-left:4px dotted #5684a9;margin-left:180px}.logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:10px;padding-top:20px;padding-left:20px;padding-bottom:40px}.logo-block{-ms-flex-item-align:center;align-self:center;border-radius:20px;background-color:#fff;padding:10px}.hsm-container{display:-webkit-box;display:-ms-flexbox;display:flex;gap:20px}.tab-content{display:none}.tab-content.active{display:block}.tab-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-negative:0;flex-shrink:0;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.main-solutions__button{background:none;border:none;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:22px;text-align:left;padding-left:20px;padding-right:40px;padding-top:20px;padding-bottom:10px;cursor:pointer}.tab-nav span{display:none}.tab-nav span.visible{display:block;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:16px;padding-left:20px;padding-right:40px;padding-top:10px}.tab-content h3{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:18px;padding:20px}.main-feedback{margin:0 auto;width:740px}.main-feedback h1{font-family:"istok",sans-serif;font-weight:700;font-style:normal;color:#d100d9;font-size:36px}.main-feedback span{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:16px}.main-feedback .main-feedback__block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding-top:20px;-webkit-column-gap:20px;column-gap:20px}.main-feedback input[name="text"]{width:450px;height:24px;background:none;border-top:none;border-left:none;border-right:none;border-bottom:1px solid #fff;padding-top:20px;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px}.main-feedback input[name="text"]::-webkit-input-placeholder{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px}.main-feedback input[name="text"]:-ms-input-placeholder{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px}.main-feedback input[name="text"]::-ms-input-placeholder{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px}.main-feedback input[name="text"]::placeholder{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:20px}.main-feedback input[name="text"]:focus{outline:none}.main-feedback input[name="submit"]{width:250px;height:60px;background-color:#d9d9d9;border-radius:20px;border:none;font-family:"istok",sans-serif;font-weight:700;font-style:normal;color:#000;font-size:24px;cursor:pointer}.main-feedback .main-feedback__bottom{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:10px}.main-feedback .main-feedback__bottom a{color:#fff}.main-contact{padding-left:50px}.main-contact h1{padding-top:50px;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:32px}.main-contact ul{list-style:none;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#fff;font-size:14px;padding-top:50px;padding-bottom:50px;padding-left:50px}.main-contact .main-contact__map{text-align:center;padding-bottom:50px}.footer{background-color:#000;width:100%;padding-top:40px;padding-bottom:40px}.footer .footer-navigate{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-column-gap:30px;column-gap:30px}.footer .footer-navigate h2{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:20px}.footer .footer-navigate ul{list-style:none}.footer .footer-navigate ul li{padding-bottom:20px;font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:18px}.footer .footer-navigate ul li a{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:18px;text-decoration:none}.footer hr{margin:0 auto}.footer .footer-language{margin:0 auto;width:60%;padding-top:6px;text-align:right;padding-right:100px}.footer .footer-language .footer-lang__ico-button{background-color:#000;border:none;position:relative}.footer .footer-language .footer-lang__ico-button::after{position:absolute;content:"Русский";font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:14px;top:4px}.footer .footer-language .footer-lang__ico-button .footer-lang__ico-svg{fill:#a8a8aa}.footer .footer-bottom__content{font-family:"istok",sans-serif;font-weight:400;font-style:normal;color:#a8a8aa;font-size:10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-column-gap:50px;column-gap:50px}.footer .footer-bottom__content a{color:#a8a8aa}*{padding:0;margin:0}body{-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#27282c}
+@font-face {
+  font-family: 'istok';
+  src: url('../fonts/istokweb-bold-webfont.woff2') format('woff2'), url('../fonts/istokweb-bold-webfont.woff') format('woff'), url('../fonts/istokweb-bold-webfont.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'istok';
+  src: url('../fonts/istokweb-bold-webfont.woff2') format('woff2'), url('../fonts/istokweb-bold-webfont.woff') format('woff'), url('../fonts/istokweb-bold-webfont.ttf') format('ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/style\.less}line{font-family:\0000320}}
+* {
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/style\.less}line{font-family:\0000326}}
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #27282c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/grid\.less}line{font-family:\000031}}
+.top,
+.main,
+.footer-navigate {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\000031}}
+.top {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\000038}}
+.top .top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000311}}
+.top .top-right .top-menu .top-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000315}}
+.top .top-right .top-menu .top-menu__list .top-menu__link {
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000317}}
+.top .top-right .top-menu .top-menu__list .top-menu__link a {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 20px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000322}}
+.top .top-right .top-menu .top-menu__list .top-menu__link a:hover {
+  color: #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000329}}
+.top .top-right .top-lang__ico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-left: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000333}}
+.top .top-right .top-lang__ico .top-lang__ico-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000338}}
+.top .top-right .top-lang__ico .top-lang__ico-button .top-lang__ico-svg:hover {
+  fill: #dcdcdc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/top\.less}line{font-family:\0000343}}
+.top .top-right .top-lang__ico .top-lang__ico-svg {
+  fill: #a8a8aa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000031}}
+.main {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000033}}
+.main .main-bg-gradient {
+  position: absolute;
+  width: 1400px;
+  min-height: 1000px;
+  top: -200px;
+  left: -100px;
+  background: url(../images/bg-gradient-blue-min.png) 480px 20px no-repeat, url(../images/bg-gradient-yellow-min.png) 650px 260px no-repeat, url(../images/bg-gradient-red-min.png) 0px 180px no-repeat, url(../images/arrow-top.png) 200px 260px no-repeat, url(../images/arrow-bottom.png) 190px 510px no-repeat;
+  background-size: auto, auto, auto, auto, auto;
+  /* Меняем масштаб */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\000031}}
+.main-about {
+  position: relative;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto auto auto;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000311}}
+.main-about .main-about__section h3,
+.main-about .main-about__section h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  font-family: "istok", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000319}}
+.main-about .main-about__section p {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000325}}
+.main-about .main-about__section-title {
+  font-family: "istok", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000331}}
+.main-about .main-about__section:first-child {
+  padding-bottom: 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000333}}
+.main-about .main-about__section:first-child p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000339}}
+.main-about .main-about__section:nth-child(2) p {
+  padding-left: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000344}}
+.main-about .main-about__section:nth-last-child(3) {
+  padding: 0 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000347}}
+.main-about .main-about__section:nth-last-child(3) p {
+  padding-left: 70px;
+  padding-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000355}}
+.main-about .main-about__section:nth-last-child(2) p {
+  padding-left: 102px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000359}}
+.main-about .main-about__section:nth-last-child(2) ul {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000365}}
+.main-about .main-about__section:nth-last-child(2) ul h4 {
+  font-size: 18px;
+  padding: 10px 0 10px 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000376}}
+.main-about .main-about__section:last-child {
+  position: relative;
+  margin-top: -100px;
+  padding-top: 50px;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000381}}
+.main-about .main-about__section:last-child span:first-child {
+  color: #F9D545;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000387}}
+.main-about .main-about__section:last-child span:last-child {
+  color: #FF5959;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000392}}
+.main-about .main-about__section:last-child p {
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\0000396}}
+.main-about .main-about__section:last-child .button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: #D9D9D9;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/about\.less}line{font-family:\00003104}}
+.main-about .main-about__section:last-child .button:hover {
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\000031}}
+.main-products {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  z-index: 98;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\000038}}
+.main-products .main-products__bg {
+  position: absolute;
+  width: 1400px;
+  min-height: 1200px;
+  top: -200px;
+  left: -100px;
+  background: url(../images/bg-gradient-violet.png) 0px 80px no-repeat, url(../images/bg-gradient-big-violet.png) 660px 470px no-repeat;
+  background-size: auto, auto;
+  /* Меняем масштаб */
+  z-index: -100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000322}}
+.main-products p {
+  position: relative;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 50px;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000330}}
+.main-products .main-products__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 585px;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000341}}
+.main-products .main-products__container h2 {
+  position: absolute;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 32px;
+  top: 10px;
+  left: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000351}}
+.main-products .main-products__planet {
+  width: 280px;
+  height: 585px;
+  background: url(../images/bg-planet-orbit.png) 150px 0px no-repeat;
+  background-size: auto;
+  /* Меняем масштаб */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000361}}
+.main-products .main-products__planet .main-products__planet-block {
+  position: relative;
+  padding-top: 90px;
+  padding-left: 40px;
+  min-height: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000367}}
+.main-products .main-products__planet .main-products__planet-block .products-planet {
+  position: absolute;
+  right: -40px;
+  border: 1px solid #D9D9D9;
+  border-radius: 50%;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000375}}
+.main-products .main-products__planet .main-products__planet-block h3 {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 80px;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000382}}
+.main-products .main-products__planet .main-products__planet-block p {
+  width: 70%;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000390}}
+.main-products .main-products__planet .main-products__planet-block button {
+  position: absolute;
+  bottom: 20px;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 16px;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003101}}
+.main-products .main-products__planet .main-products__planet-block button:hover {
+  background-color: #c0c0c0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\000031}}
+.main-text__slider {
+  padding-bottom: 80px;
+  font-family: "istok", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 48px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\000036}}
+.main-text__slider span {
+  color: #F4AF5D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\000031}}
+.main-solutions__slider {
+  position: relative;
+  padding-bottom: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\000035}}
+.main-solutions__slider .main-solutions__bg {
+  position: absolute;
+  width: 1400px;
+  height: 1500px;
+  top: -500px;
+  z-index: -1;
+  background: url(../images/bg-gradient-big-blue.png) 0 0 no-repeat, url(../images/bg-gradient-big2-violet.png) -100px 500px no-repeat;
+  background-size: auto auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000316}}
+.main-solutions__slider p {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000323}}
+.main-solutions__slider .main-solutions__container {
+  display: grid;
+  grid-template-columns: auto 760px;
+  width: 1200px;
+  height: 552px;
+  background-color: rgba(22, 19, 30, 0.6);
+  border-radius: 20px;
+  box-shadow: 9px 8px 5px 2px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 9px 8px 5px 2px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 9px 8px 5px 2px rgba(0, 0, 0, 0.62);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000334}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-left {
+  height: 552px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000338}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  height: 552px;
+  background-color: rgba(45, 42, 45, 0.4);
+  border-radius: 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000347}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient-slider-violet {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-big-violet.png) -200px -170px no-repeat, url(../images/bg-gradient-red-min.png) 280px 100px no-repeat;
+  background-size: auto auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000357}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 120px 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000364}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products p {
+  font-size: 14px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000370}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  width: 113px;
+  height: 113px;
+  border-radius: 50%;
+  border: 4px dotted #5684A9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000382}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .feba {
+  background: url('data:image/svg+xml, <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%234F63DD"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8498 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%237B80FF"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000387}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .norve {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D4433F"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23FF5959"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000392}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .titan {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23FCEFB9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
+  background-size: auto;
+  color: #5684A9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000398}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .hyperion {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6C00C"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23ECCE0F"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003104}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .calypso {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6B648"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8526 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003110}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .atlas {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23B28253"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23D0A16D"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003116}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .prometheus {
+  background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%235684A9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%2398B6CB"></path></svg>') center no-repeat;
+  background-size: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003124}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__button-more {
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  margin-left: 120px;
+  border: none;
+  background-color: #D9D9D9;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003142}}
+.line {
+  position: absolute;
+  width: 1px;
+  height: 62px;
+  top: 210px;
+  border-left: 4px dotted #5684A9;
+  margin-left: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003151}}
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003160}}
+.logo-block {
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003167}}
+.hsm-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003173}}
+.tab-content {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003177}}
+.tab-content.active {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003181}}
+.tab-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003189}}
+.main-solutions__button {
+  background: none;
+  border: none;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003202}}
+.tab-nav span {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003206}}
+.tab-nav span.visible {
+  display: block;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003215}}
+.tab-content h3 {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\000031}}
+.main-feedback {
+  margin: 0 auto;
+  width: 740px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\000034}}
+.main-feedback h1 {
+  font-family: "istok", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #d100d9;
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\000038}}
+.main-feedback span {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000313}}
+.main-feedback .main-feedback__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000320}}
+.main-feedback input[name="text"] {
+  width: 450px;
+  height: 24px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  padding-top: 20px;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000332}}
+.main-feedback input[name="text"]::-webkit-input-placeholder {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+}
+.main-feedback input[name="text"]:-ms-input-placeholder {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+}
+.main-feedback input[name="text"]::-ms-input-placeholder {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+}
+.main-feedback input[name="text"]::placeholder {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000337}}
+.main-feedback input[name="text"]:focus {
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000342}}
+.main-feedback input[name="submit"] {
+  width: 250px;
+  height: 60px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: none;
+  font-family: "istok", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+  font-size: 24px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000353}}
+.main-feedback .main-feedback__bottom {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\0000357}}
+.main-feedback .main-feedback__bottom a {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/contact\.less}line{font-family:\000031}}
+.main-contact {
+  padding-left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/contact\.less}line{font-family:\000033}}
+.main-contact h1 {
+  padding-top: 50px;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/contact\.less}line{font-family:\0000310}}
+.main-contact ul {
+  list-style: none;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/contact\.less}line{font-family:\0000319}}
+.main-contact .main-contact__map {
+  text-align: center;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\000031}}
+.footer {
+  background-color: #000;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\000037}}
+.footer .footer-navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000310}}
+.footer .footer-navigate h2 {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000315}}
+.footer .footer-navigate ul {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000318}}
+.footer .footer-navigate ul li {
+  padding-bottom: 20px;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000322}}
+.footer .footer-navigate ul li a {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000331}}
+.footer hr {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000335}}
+.footer .footer-language {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 6px;
+  text-align: right;
+  padding-right: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000342}}
+.footer .footer-language .footer-lang__ico-button {
+  background-color: black;
+  border: none;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000347}}
+.footer .footer-language .footer-lang__ico-button::after {
+  position: absolute;
+  content: "Русский";
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 14px;
+  top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000356}}
+.footer .footer-language .footer-lang__ico-button .footer-lang__ico-svg {
+  fill: #A8A8AA;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000361}}
+.footer .footer-bottom__content {
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #a8a8aa;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000368}}
+.footer .footer-bottom__content a {
+  color: #A8A8AA;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/button_up\.less}line{font-family:\000031}}
+.btn-up {
+  position: fixed;
+  /* фиксированная позиция */
+  background-color: #673ab7;
+  /* цвет заднего фона */
+  right: 20px;
+  /* расстояние от правого края */
+  bottom: 0px;
+  /* расстояние от нижнего края */
+  border-top-left-radius: 8px;
+  /* скругление верхнего левого угла */
+  border-top-right-radius: 8px;
+  /* скругление верхнего правого угла */
+  cursor: pointer;
+  /* форма курсора */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* не отображать элемент */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 60px;
+  height: 50px;
+  opacity: 1;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/button_up\.less}line{font-family:\0000319}}
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/button_up\.less}line{font-family:\0000328}}
+.btn-up_hide {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/button_up\.less}line{font-family:\0000332}}
+.btn-up_hiding {
+  opacity: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/button_up\.less}line{font-family:\0000337}}
+  .btn-up:hover {
+    background-color: #512da8;
+    /* цвет заднего фона при наведении */
+  }
+}
 /*# sourceMappingURL=style.css.map */
