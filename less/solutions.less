@@ -51,6 +51,7 @@
                 background: url(../images/bg-gradient-big-violet.png) -200px -170px no-repeat,
                 url(../images/bg-gradient-red-min.png) 280px 100px no-repeat;
                 background-size: auto auto;
+                z-index: 1;
             }
         
 
@@ -61,6 +62,7 @@
                 justify-content: center;
                 position: relative;
                 padding-bottom: 20px;
+                z-index: 99;
                 & p{
                     font-size: 14px;
                     line-height: 20px;
@@ -149,12 +151,14 @@
 }
 
 .logo{
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 10px;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 40px;
+    z-index: 99;
 }
 
 .logo-block {
@@ -172,10 +176,12 @@
 
 .tab-content {
     display: none;
+
 }
 
+
 .tab-content.active{
-    display: block;
+    display: block; 
 }
 
 .tab-nav{
@@ -197,6 +203,8 @@
     padding-top: 20px;
     padding-bottom: 10px;
     cursor: pointer;
+    position: relative;
+    z-index: 99;
 }
 
 .tab-nav span{
@@ -216,5 +224,7 @@
     .font-text(@text-color, @regular);
     font-size: 18px;
     padding: 20px;
+    position: relative;
+    z-index: 99;
 
 }

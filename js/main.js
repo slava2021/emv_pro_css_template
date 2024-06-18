@@ -40,6 +40,7 @@ function initSlider() {
     function initTabs() {
         tabContent.forEach((tabContent, index) => {
             let tabsIsActive = `${index == 0 ? " active" + " n" + index : " n" + index}`;
+
             // sliderImages.innerHTML += imageDiv;
             // tabContent.classList.add(tabsIsActive);
             tabContent.className += tabsIsActive;
@@ -79,6 +80,17 @@ function initSlider() {
     initTabs();
 
     initLinks();
+
+    let count = 0;
+
+    const interval = setInterval(() => {
+        moveSlider(count);
+        count += 1;
+        if (count > 5) {
+            clearInterval(interval);
+            // count = 0;
+        }
+    }, 4000);
 
 }
 

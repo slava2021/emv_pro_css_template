@@ -362,14 +362,199 @@ body {
 .main-text__slider {
   padding-bottom: 80px;
   font-family: "istok", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   color: #ffffff;
   font-size: 48px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\000036}}
-.main-text__slider span {
+.main-text__slider p {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000311}}
+.main-text__slider .callout__ticker li:first-child {
   color: #F4AF5D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000315}}
+.main-text__slider .callout__ticker li:nth-last-child(3) {
+  color: #D100D9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000319}}
+.main-text__slider .callout__ticker li:nth-last-child(2) {
+  color: #7B80FF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000323}}
+.main-text__slider .callout__ticker li:last-child {
+  color: #D4433F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000330}}
+.callout__ticker {
+  width: 100%;
+  overflow: hidden;
+  height: 45px;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 45px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000339}}
+.callout__ticker ul {
+  float: left;
+  -webkit-animation: ticker 12s cubic-bezier(1, 0, 0.4, 0) infinite;
+          animation: ticker 12s cubic-bezier(1, 0, 0.4, 0) infinite;
+  -webkit-user-select: none;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000345}}
+.callout__ticker ul.ticker__items li {
+  line-height: 45px;
+  list-style: none;
+  display: block;
+  position: relative;
+  z-index: 99;
+}
+@-webkit-keyframes ticker {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000356}}
+  0% {
+    margin-top: 45px;
+    opacity: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000357}}
+  5% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000358}}
+  25% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000360}}
+  32% {
+    margin-top: -45px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000361}}
+  45% {
+    margin-top: -45px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000362}}
+  50% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000364}}
+  55% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000365}}
+  65% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000366}}
+  72% {
+    margin-top: -135px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000368}}
+  76% {
+    margin-top: -135px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000369}}
+  85% {
+    margin-top: -180px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000370}}
+  92% {
+    margin-top: -180px;
+    opacity: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000371}}
+  100% {
+    margin-top: -225px;
+    opacity: 0;
+  }
+}
+@keyframes ticker {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000356}}
+  0% {
+    margin-top: 45px;
+    opacity: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000357}}
+  5% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000358}}
+  25% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000360}}
+  32% {
+    margin-top: -45px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000361}}
+  45% {
+    margin-top: -45px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000362}}
+  50% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000364}}
+  55% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000365}}
+  65% {
+    margin-top: -90px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000366}}
+  72% {
+    margin-top: -135px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000368}}
+  76% {
+    margin-top: -135px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000369}}
+  85% {
+    margin-top: -180px;
+    opacity: 1;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000370}}
+  92% {
+    margin-top: -180px;
+    opacity: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000371}}
+  100% {
+    margin-top: -225px;
+    opacity: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\0000374}}
+.callout__ticker ul:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\000031}}
 .main-solutions__slider {
@@ -430,8 +615,9 @@ body {
   height: 100%;
   background: url(../images/bg-gradient-big-violet.png) -200px -170px no-repeat, url(../images/bg-gradient-red-min.png) 280px 100px no-repeat;
   background-size: auto auto;
+  z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000358}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products {
   padding-top: 20px;
   display: grid;
@@ -441,13 +627,14 @@ body {
           justify-content: center;
   position: relative;
   padding-bottom: 20px;
+  z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000366}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products p {
   font-size: 14px;
   line-height: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000372}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products h2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,43 +655,43 @@ body {
   border-radius: 50%;
   border: 4px dotted #5684A9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000384}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .feba {
   background: url('data:image/svg+xml, <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%234F63DD"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8498 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%237B80FF"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000389}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .norve {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D4433F"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23FF5959"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000394}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .titan {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23FCEFB9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
   background-size: auto;
   color: #5684A9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003100}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .hyperion {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6C00C"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23ECCE0F"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003106}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .calypso {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6B648"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8526 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003112}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .atlas {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23B28253"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23D0A16D"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003118}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .prometheus {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%235684A9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%2398B6CB"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003126}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__button-more {
   position: relative;
   z-index: 99;
@@ -520,7 +707,7 @@ body {
   padding: 10px 40px;
   border-radius: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003144}}
 .line {
   position: absolute;
   width: 1px;
@@ -529,8 +716,9 @@ body {
   border-left: 4px dotted #5684A9;
   margin-left: 180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003153}}
 .logo {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,8 +729,9 @@ body {
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 40px;
+  z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003164}}
 .logo-block {
   -ms-flex-item-align: center;
       align-self: center;
@@ -550,22 +739,22 @@ body {
   background-color: #fff;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003171}}
 .hsm-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003177}}
 .tab-content {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003183}}
 .tab-content.active {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003187}}
 .tab-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -582,7 +771,7 @@ body {
       -ms-flex-order: -1;
           order: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003195}}
 .main-solutions__button {
   background: none;
   border: none;
@@ -597,12 +786,14 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
   cursor: pointer;
+  position: relative;
+  z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003210}}
 .tab-nav span {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003214}}
 .tab-nav span.visible {
   display: block;
   font-family: "istok", sans-serif;
@@ -614,7 +805,7 @@ body {
   padding-right: 40px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003223}}
 .tab-content h3 {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -622,6 +813,8 @@ body {
   color: #ffffff;
   font-size: 18px;
   padding: 20px;
+  position: relative;
+  z-index: 99;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/feedback\.less}line{font-family:\000031}}
 .main-feedback {
