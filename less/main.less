@@ -1,19 +1,26 @@
+.main-container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
 .main{
     position: relative;
     & .main-bg-gradient{
+        display: block;
+        margin: 0 auto;
         position: absolute;
-        width: 1400px;
+        min-width: 1400px;
+        // min-width: 1200px;
         min-height: 1000px;
-        // margin: 0 auto;
+        margin: 0 auto;
         // border: 1px solid red;
         top: -200px;
         left: -100px;
-    background: url(../images/bg-gradient-blue-min.png) 480px 20px no-repeat, 
+    background: url(../images/bg-gradient-blue-min.png) 520px -120px no-repeat, 
     url(../images/bg-gradient-yellow-min.png) 650px 260px no-repeat, 
     url(../images/bg-gradient-red-min.png) 0px 180px no-repeat,
     url(../images/arrow-top.png) 200px 260px no-repeat,
     url(../images/arrow-bottom.png) 190px 510px no-repeat;
     background-size: auto, auto, auto, auto, auto; /* Меняем масштаб */
-
     }
 }

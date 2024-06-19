@@ -100,17 +100,24 @@ body {
   fill: #a8a8aa;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000031}}
+.main-container {
+  width: 1400px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000036}}
 .main {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/main\.less}line{font-family:\000038}}
 .main .main-bg-gradient {
+  display: block;
   position: absolute;
-  width: 1400px;
+  min-width: 1400px;
   min-height: 1000px;
+  margin: 0 auto;
   top: -200px;
   left: -100px;
-  background: url(../images/bg-gradient-blue-min.png) 480px 20px no-repeat, url(../images/bg-gradient-yellow-min.png) 650px 260px no-repeat, url(../images/bg-gradient-red-min.png) 0px 180px no-repeat, url(../images/arrow-top.png) 200px 260px no-repeat, url(../images/arrow-bottom.png) 190px 510px no-repeat;
+  background: url(../images/bg-gradient-blue-min.png) 520px -120px no-repeat, url(../images/bg-gradient-yellow-min.png) 650px 260px no-repeat, url(../images/bg-gradient-red-min.png) 0px 180px no-repeat, url(../images/arrow-top.png) 200px 260px no-repeat, url(../images/arrow-bottom.png) 190px 510px no-repeat;
   background-size: auto, auto, auto, auto, auto;
   /* Меняем масштаб */
 }
@@ -250,17 +257,18 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\000038}}
 .main-products .main-products__bg {
+  margin: 0 auto;
   position: absolute;
   width: 1400px;
   min-height: 1200px;
   top: -200px;
   left: -100px;
-  background: url(../images/bg-gradient-violet.png) 0px 80px no-repeat, url(../images/bg-gradient-big-violet.png) 660px 470px no-repeat;
+  background: url(../images/bg-gradient-violet.png) -50px 80px no-repeat, url(../images/bg-gradient-big-violet.png) 560px 450px no-repeat;
   background-size: auto, auto;
   /* Меняем масштаб */
   z-index: -100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000323}}
 .main-products p {
   position: relative;
   font-family: "istok", sans-serif;
@@ -271,7 +279,7 @@ body {
   padding-bottom: 50px;
   z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000331}}
 .main-products .main-products__container {
   position: relative;
   display: -webkit-box;
@@ -283,7 +291,7 @@ body {
   min-height: 585px;
   z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000342}}
 .main-products .main-products__container h2 {
   position: absolute;
   font-family: "istok", sans-serif;
@@ -294,7 +302,7 @@ body {
   top: 10px;
   left: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000352}}
 .main-products .main-products__planet {
   width: 280px;
   height: 585px;
@@ -302,14 +310,14 @@ body {
   background-size: auto;
   /* Меняем масштаб */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000362}}
 .main-products .main-products__planet .main-products__planet-block {
   position: relative;
   padding-top: 90px;
   padding-left: 40px;
   min-height: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000368}}
 .main-products .main-products__planet .main-products__planet-block .products-planet {
   position: absolute;
   right: -40px;
@@ -317,7 +325,7 @@ body {
   border-radius: 50%;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000376}}
 .main-products .main-products__planet .main-products__planet-block h3 {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -328,7 +336,7 @@ body {
   padding-right: 80px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000383}}
 .main-products .main-products__planet .main-products__planet-block p {
   width: 70%;
   font-family: "istok", sans-serif;
@@ -339,7 +347,7 @@ body {
   padding-bottom: 20px;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000391}}
 .main-products .main-products__planet .main-products__planet-block button {
   position: absolute;
   bottom: 20px;
@@ -354,7 +362,7 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003102}}
 .main-products .main-products__planet .main-products__planet-block button:hover {
   background-color: #c0c0c0;
 }
@@ -567,11 +575,12 @@ body {
   width: 1400px;
   height: 1500px;
   top: -500px;
+  left: -100px;
   z-index: -1;
-  background: url(../images/bg-gradient-big-blue.png) 0 0 no-repeat, url(../images/bg-gradient-big2-violet.png) -100px 500px no-repeat;
+  background: url(../images/bg-gradient-big-blue.png) -100px 0 no-repeat, url(../images/bg-gradient-big2-violet.png) -200px 500px no-repeat;
   background-size: auto auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000317}}
 .main-solutions__slider p {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -581,10 +590,10 @@ body {
   padding-bottom: 20px;
   padding-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000324}}
 .main-solutions__slider .main-solutions__container {
   display: grid;
-  grid-template-columns: auto 760px;
+  grid-template-columns: 440px 760px;
   width: 1200px;
   height: 552px;
   background-color: rgba(22, 19, 30, 0.6);
@@ -593,23 +602,24 @@ body {
   -webkit-box-shadow: 9px 8px 5px 2px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 9px 8px 5px 2px rgba(0, 0, 0, 0.62);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000335}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-left {
+  width: 440px;
   height: 552px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000340}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: relative;
+  width: 760px;
   height: 552px;
   background-color: rgba(45, 42, 45, 0.4);
   border-radius: 20px;
   padding-top: 0px;
   padding-left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000347}}
-.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient-slider-violet {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000350}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n0 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -617,7 +627,52 @@ body {
   background-size: auto auto;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000360}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-violet.png) -200px -170px no-repeat, url(../images/bg-gradient-blue-min.png) 280px 100px no-repeat;
+  background-size: auto auto;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000370}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-red-min.png) -200px -170px no-repeat, url(../images/bg-gradient-blue-min.png) 280px 100px no-repeat;
+  background-size: auto auto;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000380}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-blue-min.png) -200px -170px no-repeat, url(../images/bg-gradient-violet.png) 280px 100px no-repeat;
+  background-size: auto auto;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000391}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-yellow-min.png) -200px -170px no-repeat, url(../images/bg-gradient-blue-min.png) 280px 100px no-repeat;
+  background-size: auto auto;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003101}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .bg-gradient.n5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-gradient-yellow-min.png) -200px -170px no-repeat, url(../images/bg-gradient-big2-violet.png) 280px 100px no-repeat;
+  background-size: auto auto;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003111}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products {
   padding-top: 20px;
   display: grid;
@@ -629,12 +684,12 @@ body {
   padding-bottom: 20px;
   z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003119}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products p {
   font-size: 14px;
   line-height: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003125}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products h2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -653,45 +708,45 @@ body {
   width: 113px;
   height: 113px;
   border-radius: 50%;
-  border: 4px dotted #5684A9;
+  border: 2px dashed #5684A9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003137}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .feba {
   background: url('data:image/svg+xml, <svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%234F63DD"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8498 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%237B80FF"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003142}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .norve {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D4433F"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8495 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23FF5959"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003147}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .titan {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23FCEFB9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
   background-size: auto;
   color: #5684A9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003153}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .hyperion {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6C00C"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4114 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8527 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4114 93.0906Z" fill="%23ECCE0F"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003159}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .calypso {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23D6B648"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0906 41.9233C91.7718 35.9422 89.2649 30.5298 85.8728 25.8795C78.988 23.6403 71.4337 23.1513 63.8526 24.823C41.1781 29.8227 26.8498 52.2571 31.8495 74.9316C33.3489 81.7315 36.4162 87.7808 40.5878 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23F9D545"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003165}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .atlas {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%23B28253"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%23D0A16D"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003171}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__products .prometheus {
   background: url('data:image/svg+xml,<svg width="103" height="103" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="51.1673" cy="51.1673" r="42.9303" transform="rotate(-12.4347 51.1673 51.1673)" fill="%235684A9"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M60.4113 93.0906C83.5649 87.9853 98.1959 65.0769 93.0905 41.9233C91.7717 35.9422 89.2649 30.5298 85.8727 25.8795C78.9879 23.6403 71.4337 23.1513 63.8526 24.823C41.178 29.8227 26.8497 52.2571 31.8494 74.9316C33.3488 81.7315 36.4162 87.7808 40.5877 92.7832C46.8813 94.3885 53.6358 94.5846 60.4113 93.0906Z" fill="%2398B6CB"></path></svg>') center no-repeat;
   background-size: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003179}}
 .main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__button-more {
   position: relative;
   z-index: 99;
@@ -707,16 +762,21 @@ body {
   padding: 10px 40px;
   border-radius: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003191}}
+.main-solutions__slider .main-solutions__container .main-solutions__container-right .main-solutions__button-more:hover {
+  background-color: #a6a6a6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003201}}
 .line {
   position: absolute;
   width: 1px;
-  height: 62px;
-  top: 210px;
-  border-left: 4px dotted #5684A9;
+  height: 64px;
+  top: 208px;
+  border-left: 2px dashed #5684A9;
   margin-left: 180px;
+  z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003211}}
 .logo {
   position: relative;
   display: -webkit-box;
@@ -731,7 +791,7 @@ body {
   padding-bottom: 40px;
   z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003222}}
 .logo-block {
   -ms-flex-item-align: center;
       align-self: center;
@@ -739,22 +799,36 @@ body {
   background-color: #fff;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003229}}
 .hsm-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003235}}
+.tab {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003239}}
 .tab-content {
-  display: none;
+  width: 760px;
+  height: 552px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 440px;
+  -webkit-transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003252}}
 .tab-content.active {
-  display: block;
+  position: absolute;
+  top: 0;
+  left: 440px;
+  opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003259}}
 .tab-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,7 +845,7 @@ body {
       -ms-flex-order: -1;
           order: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003267}}
 .main-solutions__button {
   background: none;
   border: none;
@@ -789,13 +863,23 @@ body {
   position: relative;
   z-index: 99;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003282}}
 .tab-nav span {
-  display: none;
+  display: inline-block;
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0px;
+  -webkit-transition: max-height 0.8s;
+  transition: max-height 0.8s;
+  background-color: rgba(217, 217, 217, 0.1);
+  margin: 0 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003295}}
 .tab-nav span.visible {
-  display: block;
+  opacity: 1;
+  max-height: 70px;
   font-family: "istok", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -805,7 +889,7 @@ body {
   padding-right: 40px;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\00003307}}
 .tab-content h3 {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -956,12 +1040,13 @@ body {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\000031}}
 .footer {
+  display: block;
   background-color: #000;
-  width: 100%;
+  min-width: 1400px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\000038}}
 .footer .footer-navigate {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -969,7 +1054,7 @@ body {
   -webkit-column-gap: 30px;
           column-gap: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000311}}
 .footer .footer-navigate h2 {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -977,11 +1062,11 @@ body {
   color: #a8a8aa;
   font-size: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000316}}
 .footer .footer-navigate ul {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000319}}
 .footer .footer-navigate ul li {
   padding-bottom: 20px;
   font-family: "istok", sans-serif;
@@ -990,7 +1075,7 @@ body {
   color: #a8a8aa;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000323}}
 .footer .footer-navigate ul li a {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -999,11 +1084,11 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000332}}
 .footer hr {
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000336}}
 .footer .footer-language {
   margin: 0 auto;
   width: 60%;
@@ -1011,13 +1096,13 @@ body {
   text-align: right;
   padding-right: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000343}}
 .footer .footer-language .footer-lang__ico-button {
   background-color: black;
   border: none;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000348}}
 .footer .footer-language .footer-lang__ico-button::after {
   position: absolute;
   content: "Русский";
@@ -1028,11 +1113,11 @@ body {
   font-size: 14px;
   top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000357}}
 .footer .footer-language .footer-lang__ico-button .footer-lang__ico-svg {
   fill: #A8A8AA;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000362}}
 .footer .footer-bottom__content {
   font-family: "istok", sans-serif;
   font-weight: 400;
@@ -1048,7 +1133,7 @@ body {
   -webkit-column-gap: 50px;
           column-gap: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/footer\.less}line{font-family:\0000369}}
 .footer .footer-bottom__content a {
   color: #A8A8AA;
 }

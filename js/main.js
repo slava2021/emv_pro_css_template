@@ -35,6 +35,7 @@ function initSlider() {
     let tabContainer = document.querySelector(".main-solutions__container");
     let tabContent = document.querySelectorAll(".tab-content");
     let tabLinks = document.querySelector(".tab-nav")
+    let bgSlider = document.querySelectorAll(".bg-gradient");
 
     // Добавляем елемент div с классом и dataset в документ
     function initTabs() {
@@ -44,8 +45,17 @@ function initSlider() {
             // sliderImages.innerHTML += imageDiv;
             // tabContent.classList.add(tabsIsActive);
             tabContent.className += tabsIsActive;
+            // tabContent.innerHTML = `<div class="bg-gradient violet"></div>`;
+
+
+        })
+
+        bgSlider.forEach((bgSlider, index) => {
+            let divClass = `n${index}`;
+            bgSlider.classList.add(divClass);
         })
     }
+
 
     //Добавляем кнопки и вешаем обработчик
     function initLinks() {
@@ -58,6 +68,7 @@ function initSlider() {
         tabLinks.querySelectorAll(".main-solutions__button").forEach(button => {
             button.addEventListener("click", function () {
                 moveSlider(this.dataset.index);
+                clearInterval(interval);
             })
         });
     }
@@ -66,6 +77,8 @@ function initSlider() {
     function moveSlider(num) {
         tabContainer.querySelector(".active").classList.remove("active");
         tabContainer.querySelector(".n" + num).classList.add("active");
+
+
 
         // if (options.buttons) {
         tabLinks.querySelector(".active").classList.remove("active");
@@ -84,11 +97,12 @@ function initSlider() {
     let count = 0;
 
     const interval = setInterval(() => {
+
         moveSlider(count);
         count += 1;
         if (count > 5) {
-            clearInterval(interval);
-            // count = 0;
+            // clearInterval(interval);
+            count = 0;
         }
     }, 4000);
 
