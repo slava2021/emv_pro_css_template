@@ -21,6 +21,147 @@ body {
           box-sizing: border-box;
   background-color: #27282c;
 }
+/* [Object] Modal
+ * =============================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\000033}}
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+  z-index: 120;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000317}}
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000327}}
+.modal-state {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000331}}
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000336}}
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000340}}
+.modal__inner {
+  -webkit-transition: top .25s ease;
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1em 2em;
+  height: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000356}}
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000365}}
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000379}}
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000384}}
+.modal__close:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+@media screen and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\0000390}}
+  .modal__inner {
+    width: 90%;
+    height: 90%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+/* Other
+   * =============================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003101}}
+.btn {
+  cursor: pointer;
+  background: #27ae60;
+  display: inline-block;
+  padding: .5em 1em;
+  color: #fff;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003110}}
+.btn:hover,
+.btn:focus {
+  background: #2ecc71;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003115}}
+.btn:active {
+  background: #27ae60;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003120}}
+.btn--blue {
+  background: #2980b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003124}}
+.btn--blue:hover,
+.btn--blue:focus {
+  background: #3498db;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003129}}
+.btn--blue:active {
+  background: #2980b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/modal\.less}line{font-family:\00003133}}
+p img {
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin: 0 1em 1em 0;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/grid\.less}line{font-family:\000031}}
 .top,
 .main,
@@ -253,7 +394,7 @@ body {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  z-index: 98;
+  z-index: 9;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\000038}}
 .main-products .main-products__bg {
@@ -277,7 +418,7 @@ body {
   color: #ffffff;
   font-size: 20px;
   padding-bottom: 50px;
-  z-index: 99;
+  z-index: 9;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000331}}
 .main-products .main-products__container {
@@ -289,7 +430,7 @@ body {
   background-color: #fff;
   border-radius: 20px;
   min-height: 585px;
-  z-index: 99;
+  z-index: 9;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000342}}
 .main-products .main-products__container h2 {
@@ -348,7 +489,8 @@ body {
   padding-right: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\0000391}}
-.main-products .main-products__planet .main-products__planet-block button {
+.main-products .main-products__planet .main-products__planet-block button,
+.main-products .main-products__planet .main-products__planet-block .btn {
   position: absolute;
   bottom: 20px;
   background-color: #D9D9D9;
@@ -363,8 +505,63 @@ body {
   cursor: pointer;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003102}}
-.main-products .main-products__planet .main-products__planet-block button:hover {
+.main-products .main-products__planet .main-products__planet-block button:hover,
+.main-products .main-products__planet .main-products__planet-block .btn:hover {
   background-color: #c0c0c0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003110}}
+.modal__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "istok", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003118}}
+.main-products__planet-modal {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003121}}
+.main-products__planet-modal .products-planet__modal {
+  position: absolute;
+  left: 0px;
+  border: 1px solid #D9D9D9;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003130}}
+.main-products__planet-modal h3 {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 54px;
+  color: #fff;
+  z-index: 99;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/products\.less}line{font-family:\00003139}}
+.main-products__planet-modal .modal-p_container {
+  position: relative;
+  padding-left: 84px;
+  padding-right: 60px;
+  border-left: 1px dashed #D9D9D9;
+  border-bottom: 1px dashed #D9D9D9;
+  border-top: 1px dashed #D9D9D9;
+  border-right: 1px dashed #D9D9D9;
+  border-radius: 20px;
+  margin-left: 60px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: aliceblue;
+  z-index: 10;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/textSlider\.less}line{font-family:\000031}}
 .main-text__slider {
@@ -577,7 +774,7 @@ body {
   top: -500px;
   left: -100px;
   z-index: -1;
-  background: url(../images/bg-gradient-big-blue.png) -100px 0 no-repeat, url(../images/bg-gradient-big2-violet.png) -200px 500px no-repeat;
+  background: url(../images/bg-gradient-big-blue.png) -50px 0 no-repeat, url(../images/bg-gradient-big2-violet.png) 0px 500px no-repeat;
   background-size: auto auto;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Work\/Repo\/emv_pro_css_template\/less\/solutions\.less}line{font-family:\0000317}}
